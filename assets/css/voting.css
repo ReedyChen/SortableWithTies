@@ -1,0 +1,156 @@
+.ui-selectable-helper {
+    position: absolute;
+    z-index: 100;
+    border: 2px dotted blue;
+}
+
+.tier {
+    background-color: #ff9999;
+    float: left;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px 5px;
+    border-radius: 0.1875rem;
+
+}
+
+.ul-list {
+    white-space: nowrap;
+    background: #ff9999;
+    height: 40px;
+    width: 800px;
+    padding: 0;
+    margin: 10px 0px;
+    animation-duration: 3s;
+    border: 0;
+    border-radius: 0.1875rem;
+}
+
+.list-element {
+    display: inline-block;
+    float: left;
+    margin: 5px 5px;
+    cursor: default;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    font-size: 17px;
+    color: #e26e6e;
+    border: 2px solid white;
+    border-radius: 0.1875rem;
+}
+.list-element.ui-selected {
+    background-color: rgb(59, 95, 110);
+}
+
+.mybutton {
+    display: inline-block;
+    float: left;
+    width: 130px;
+    height: 45px;
+    background-color: white;
+    text-align: center;
+    font-size: 17px;
+    color: #e26e6e;
+    border-radius: 0.1875rem;}
+    
+.mybutton:hover{
+    background-color: whitesmoke;
+}
+
+.ul-list li>div {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.ul-list li .div-sortablehandle {
+    display: none;
+    opacity: 0.5;
+    left: -100%;
+}
+
+.ul-list li.ui-selected .div-sortablehandle {
+    display: inline-block;
+    cursor: default;
+    width: 100px;
+    height: 28px;
+    left: -107%;
+    border-radius: 0.1875rem;
+}
+
+.emp{
+    white-space: nowrap;
+    background: white;
+    height: 1px;
+    width: 500px;
+    padding: 0;
+}
+
+.li-placeHolder {
+    display: inline-block;
+    float: left;
+    margin: 5px 5px;
+    cursor: default;
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 0.1875rem;
+
+}
+
+.col-placeHolder {
+    white-space: nowrap;
+    background: grey;
+    height: 40px;
+    width: 900px;
+    padding: 0;
+    margin: 10px 0px;
+    border-radius: 0.1875rem;
+
+}
+
+.transporter {
+    display: block;
+    float: none;
+    cursor: default;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border: 0px solid darkgray;
+}
+
+.custom-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    border-radius: 5px;
+}
+
+.custom-menu li {
+    padding: 8px 12px;
+}
+
+.custom-menu li:hover {
+    background-color: #DEF;
+}
+
