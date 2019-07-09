@@ -6,8 +6,9 @@ A simple plugin to create a list that is sortable with ties.
 ## How to use it
 Follow the formats:
 ```HTML
-<!-- tier1 -->
 <div class="div-container">
+
+    <!-- tier1 -->
     <div>
         <ul class="ul-list">
             <span class="tier"> 1 </span>  <!-- tier handle -->
