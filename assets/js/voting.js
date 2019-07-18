@@ -96,7 +96,7 @@ window.setInterval(function() {
       $('li ').each(function() {
         if ($(this).parent().is('div')) {
           newi += "<li class = \"list-element\">";
-          newi += $(this).text();
+          newi += $(this).html();
           newi += "</li>";
           //$(this).remove();
         }
